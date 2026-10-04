@@ -1,6 +1,6 @@
-# 🐾 Huellitas App - Core (Base de Desarrollo)
+# 🐾 Paw Friends - Core (Base de Desarrollo)
 
-Repositorio base del sistema integral de gestión veterinaria "Huellitas". Este repositorio contiene el código estructural listo para ser extendido por el equipo de desarrollo.
+Repositorio base del sistema integral de gestión veterinaria "Paw Friends". Este repositorio contiene el código estructural listo para ser extendido por el equipo de desarrollo.
 
 ## 🚀 Arquitectura
 El proyecto está construido bajo el Stack MERN:
@@ -16,7 +16,7 @@ El entorno de desarrollo ya cuenta con una base de datos en la nube centralizada
 Solicita al líder del proyecto el archivo `.env` (que contiene las credenciales de acceso a la base de datos) y colócalo dentro de la carpeta `/server`.
 
 **En el Cliente (`/client`):**
-Duplica el archivo `.env.example` a `.env` (asegúrate de que apunte a `http://localhost:4000`).
+Duplica el archivo `.env.example` a `.env` (asegúrate de que apunte a `http://localhost:9000` o `4000` según tu backend).
 ```bash
 cd client
 cp .env.example .env
