@@ -14,6 +14,9 @@ import PetsPage from './pages/PetsPage';
 import DashboardPage from './pages/DashboardPage';
 import ContactsAdmin from './pages/ContactsAdmin';
 import AgendaPage from './pages/AgendaPage';
+import HospitalizationPage from './pages/HospitalizationPage'; // Nueva Importación
+import VaccinationPage from './pages/VaccinationPage';
+import GroomingPage from './pages/GroomingPage';             // Nueva Importación
 import { useAuth } from './contexts/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 
@@ -52,6 +55,9 @@ const App = () => {
           <Route path="appointments" element={<AppointmentsPage />} />
           <Route path="pets" element={<PetsPage />} />
           <Route path="contacts" element={<ContactsAdmin />} />
+          <Route path="hospitalization" element={<HospitalizationPage />} /> {/* Nueva Ruta */}
+          <Route path="grooming" element={<GroomingPage />} />               {/* Nueva Ruta */}
+          <Route path="vaccination" element={<VaccinationPage />} />
           <Route path="test" element={<TestPage />} />
         </Route>
 
