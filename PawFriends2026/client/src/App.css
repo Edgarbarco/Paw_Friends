@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos específicos para páginas de autenticación */
+.auth-page body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #cbdbff;
+}
+
+/* Estilos globales por defecto */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* form */
+.form-container {
+  width: 800px;
+  height: 700px;
+  margin: 40px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.form-img-vertical {
+  width: 350px;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.title,
+.slogan{
+  text-align: center;
+}
+.btn{
+  width: 100%;
+}
+.auth-image{
+  width: 100%;
+  border-radius: 8px;
+}
+.alert{
+  margin-bottom: 1.5rem;
+}
+
+/* profile-card */
+.profile-card{
+  width: 500px;
+}
+
+.avatar{
+  margin-bottom: 1.5rem;
+}
+
+.username{
+  text-transform: capitalize;
+}
+
+.profile-btn{
+  margin-top: 1.3rem;
+  width: 100%;
+  
+}
